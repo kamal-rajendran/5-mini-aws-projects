@@ -8,7 +8,18 @@
 </head>
 <body>
     <h1>Magic Colors Puzzle Game</h1>
+    <div>
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy (4 colors)</option>
+            <option value="medium">Medium (6 colors)</option>
+            <option value="hard">Hard (8 colors)</option>
+        </select>
+        <button id="startButton">Start Game</button>
+    </div>
     <div id="game-container"></div>
+    <div id="score">Score: 0</div>
+    <div id="timer">Time: <span id="time">60</span> seconds</div>
     <div id="result"></div>
     <script src="script.js"></script>
 </body>
